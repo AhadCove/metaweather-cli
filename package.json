@@ -1,6 +1,6 @@
 {
-  "name": "metaweather-cli",
-  "version": "0.1.2",
+  "name": "weathercove-cli",
+  "version": "0.1.3",
   "description": "Command Line Interface for MetaWeather",
   "keywords": [
     "cli",
@@ -8,21 +8,23 @@
     "weather"
   ],
   "bugs": {
-    "url": "https://github.com/ismaelgt/metaweather-cli/issues"
+    "url": "https://github.com/ahadcove/weathercove-cli/issues"
   },
   "license": "MIT",
   "author": {
-    "name": "Ismael González Trujillo",
-    "email": "ismael.gonzaleztrujillo@gmail.com"
+    "name": "Bilal Abdullah",
+    "email": "mr.bilal.abdullah@gmail.com"
   },
   "bin": {
     "weather": "cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ismaelgt/metaweather-cli.git"
+    "url": "https://github.com/ahadcove/weathercove-cli.git"
   },
   "scripts": {
+    "start": "./cli.js",
+    "interactive": "./cli.js -i",
     "test": "eslint . && ava"
   },
   "dependencies": {
